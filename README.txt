@@ -7,14 +7,20 @@ This will ensure that we do not overwrite each others work.
 THESE ARE THE STEPS TO TAKE EVERY TIME YOU WORK ON THE CONFIG FILES
 ----------------------------------------------------------------------
 
-1. Ensuring latest files are grabbed
+1. Ensuring Your baneofcryona Folder is Up to Date
+Open Github Desktop ---> Click Repository Tab ----> Click Pull
+
+
+2. Ensuring latest files are grabbed
 [Github BaneofCryona Folder]               ------------->            [Your Computer's/roaming/.minecraft]
 You copy all of the contents in this folder                           Paste them into this folder
 
 
-2. Editing a config file then pushing it
+3. Editing a config file then pushing it
 
 [Your Computer's/roaming/.minecraft]           ------>           [Github BaneofCryona Folder]
 Makes some edits to example config                            drags and drops into this folder
 
 
+4. Ensuring Your Work is Saved to the Branch
+Open Github Desktop ----> Click bottom left, 'commit to main' -----> Click on the right, 'push to origin'
