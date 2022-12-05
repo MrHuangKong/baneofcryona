@@ -34,11 +34,11 @@
   "villagerHeight": 0.9,
   "canHurtBabies": true,
   "useVoices": false,
-  "useVanillaVoices": false,
+  "useVanillaVoices": true,
   "interactionFatigue": 0.025,
   "interactionFatigueCooldown": 3000,
   "taxesFactor": 0.5,
   "enterVillageNotification": true,
-  "showNameTags": true,
+  "showNameTags": false,
   "villagerCanTeleport": false
 }
