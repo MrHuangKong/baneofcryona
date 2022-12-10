@@ -13,8 +13,8 @@
   },
   "bar": {
     "damageNumberType": "LAST",
-    "friendColor": 16711935,
-    "friendColorSecondary": 8388863,
+    "friendColor": -16776961,
+    "friendColorSecondary": -2147483393,
     "foeColor": -16776961,
     "foeColorSecondary": -2147483393
   },
