@@ -27,7 +27,7 @@
 			# Turn this on to help prevent and/or reduce GC-related lag spikes, turn it off for
 			# Vanilla behaviour (only rely on the pressure-based automatic GC). This is off by
 			# default as it may actually hurt performance if Xms and Xmx aren't the same!
-			enableExplicitGC = false
+			enableExplicitGC = true
 			# 
 			# Whether or not to run explicit GC when navigating one of the following opaque
 			# background screens: Singleplayer world selection, Multiplayer server selection,
@@ -103,14 +103,14 @@
 				# Note: The URL must start with "https://" for security reasons.
 				# Note: itlt supports the following *optional* string insertions, useful for being
 				# able to show an exact guide: %launcher, %reason, %type, %desire, %subject.
-				customJavaUpgradeGuideURL = "https://zlepper.github.io/itlt/guide?launcher=%launcher&reason=%reason&type=%type&desire=%desire&subject=%subject&debug=false"
+				customJavaUpgradeGuideURL = "https://www.java.com/en/download/manual.jsp"
 				# 
 				# Enable this if you want to be able to change the link your users are sent to when
 				# they ask for instructions on how to upgrade Java.
 				# 
 				# This is mainly useful for when you're using an unsupported version of this mod
 				# and the default guide is outdated or you're using your own custom launcher.
-				enableCustomJavaUpgradeGuide = false
+				enableCustomJavaUpgradeGuide = true
 
 		[Java.Version.Max]
 
@@ -267,7 +267,7 @@
 				# 
 				# The maximum recommended amount of allocated RAM in GB needed to skip the warning
 				# message when launching the modpack.
-				warnMaxMemoryAmountInGB = 8.0
+				warnMaxMemoryAmountInGB = 6.0
 
 		[Java.Memory.NearMax]
 
@@ -370,7 +370,7 @@
 			# - "ModpackName v2 based on %mc" = "ModpackName v2 based on Minecraft* 1.16.5"
 			# 
 			# Note: enableCustomWindowTitle must be enabled for this to take effect.
-			customWindowTitleText = "Bane of Cryona 2.0"
+			customWindowTitleText = "Bane of Cryona"
 			# 
 			# The text to use in place of %autoDetect if we're unable to automatically detect your
 			# modpack's display name.
