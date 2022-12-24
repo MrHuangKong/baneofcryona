@@ -21,7 +21,7 @@
 		"Flatten Bedrock" = true
 		# The width of the bedrock layer. Only works if Flatten Bedrock is true.
 		#Range: 0 ~ 256
-		"Bedrock Layer Width" = 1
+		"Bedrock Layer Width" = 2
 
 	###########################################################################################################
 	## Configure settings related to caves, caverns, ravines and more.
